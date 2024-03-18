@@ -28,7 +28,7 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  "homepage" : "https://sscc20111.github.io/notetest/",
+  "homepage" : "https://sscc20111.github.io/todolist/",
   "eslintConfig": {
     "extends": [
       "react-app",
