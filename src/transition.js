@@ -15,7 +15,7 @@ const Transition = () => {
     <TransitionGroup className="transition-group">
         <CSSTransition location={location} classNames="fade" timeout={delay}>
             <Routes location={location} >
-                <Route path="/" element={<Note />} />
+                <Route path="*" element={<Note />} />
                 <Route path="/AppPage" element={<AppPage />} />
             </Routes>
         </CSSTransition>
